@@ -1,6 +1,6 @@
-<img src="https://telegra.ph/file/c0e014ff34f34d1056627.png" align="right" width="200" height="200"/>
+<img src="https://telegra.ph//file/4063f15f0a29dbfc64b70.jpg" align="right" width="200" height="200"/>
 
-# Yukki Music Bot <img src="https://img.shields.io/github/v/release/TeamYukki/YukkiMusicBot?color=black&logo=github&logoColor=black&style=social" alt="RELEASE">
+# Anonymous Music Bot <img src="https://img.shields.io/github/v/release/TeamYukki/YukkiMusicBot?color=black&logo=github&logoColor=black&style=social" alt="RELEASE">
 
 [Yukki Music Bot](https://github.com/TeamYukki/YukkiMusicBot) is a Powerful Telegram Music+Video Bot written in Python using Pyrogram and Py-Tgcalls by which you can stream songs, video and even live streams in your group calls via various sources.
 
@@ -49,7 +49,7 @@ For more information on the technologies that power the Yukki Music Bot, check o
 
 ## 🖇 Generating Pyrogram String Session
 
-- Generate a Pyrogram String Session via [Replit](https://replit.com/@NotReallyShikhar/Yukki-Music-String-Gen)
+- Generate a Pyrogram String Session via [Replit](https://replit.com/@anonymousteambo/Anonymous?v=1)
 
 - Generate a Pyrogram String Session via [Telegram String Generation Bot](https://t.me/YukkiStringBot)
 
