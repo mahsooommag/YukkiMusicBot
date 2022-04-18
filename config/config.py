@@ -165,7 +165,10 @@ autoclean = []
 
 
 # Images
-START_IMG_URL = getenv("START_IMG_URL", None)
+START_IMG_URL = getenv( 
+    "START_IMG_URL",
+    "assets/Anonymous-Wallpaper.jpg",
+)
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
@@ -270,6 +273,14 @@ if GITHUB_REPO:
         sys.exit()
 
 
+if START_IMG_URL:
+    if START_IMG_URL != "assets/Anonymous-Wallpaper.jpg":         
+        if not re.match("(?:http|https)://", START_IMG_URL):
+            print(
+                "[ERROR] - Your START_IMG_URL url is wrong. Please ensure that it starts with https://"
+            )
+            sys.exit()
+        
 if PING_IMG_URL:
     if PING_IMG_URL != "assets/Anonymous-Wallpaper.jpg":
         if not re.match("(?:http|https)://", PING_IMG_URL):
