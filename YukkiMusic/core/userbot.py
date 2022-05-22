@@ -59,7 +59,7 @@ class Userbot(Client):
             try:
                 await self.one.join_chat("mahsoombotupdate")
                 await self.one.join_chat("mahsoombotlog")
-                await self.one.join_chat("friendsforever_group")
+                await self.one.join_chat("beastfedlog")
             except:
                 pass
             assistants.append(1)
@@ -90,7 +90,7 @@ class Userbot(Client):
             try:
                 await self.one.join_chat("mahsoombotupdate")
                 await self.one.join_chat("mahsoombotlog")
-                await self.one.join_chat("friendsforever_group")
+                await self.one.join_chat("beastfedlog")
             except:
                 pass
             assistants.append(2)
@@ -121,7 +121,7 @@ class Userbot(Client):
             try:
                 await self.one.join_chat("mahsoombotupdate")
                 await self.one.join_chat("mahsoombotlog")
-                await self.one.join_chat("friendsforever_group")
+                await self.one.join_chat("beastfedlog")
             except:
                 pass
             assistants.append(3)
@@ -152,7 +152,7 @@ class Userbot(Client):
             try:
                 await self.one.join_chat("mahsoombotupdate")
                 await self.one.join_chat("mahsoombotlog")
-                await self.one.join_chat("friendsforever_group")
+                await self.one.join_chat("beastfedlog")
             except:
                 pass
             assistants.append(4)
@@ -183,7 +183,7 @@ class Userbot(Client):
             try:
                 await self.one.join_chat("mahsoombotupdate")
                 await self.one.join_chat("mahsoombotlog")
-                await self.one.join_chat("friendsforever_group")
+                await self.one.join_chat("beastfedlog")
             except:
                 pass
             assistants.append(5)
