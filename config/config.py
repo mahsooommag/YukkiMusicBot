@@ -66,22 +66,22 @@ GIT_TOKEN = getenv("GIT_TOKEN", None)
 # Only  Links formats are  accepted for this Var value.
 SUPPORT_CHANNEL = getenv(
     "SUPPORT_CHANNEL", None
-)  # Example:- https://t.me/TheYukki
+)  # Example:- https://t.me/mahsoombotupdate
 SUPPORT_GROUP = getenv(
     "SUPPORT_GROUP", None
-)  # Example:- https://t.me/YukkiSupport
+)  # Example:- https://t.me/mahsoombotlog
 
 # Set it in True if you want to leave your assistant after a certain amount of time. [Set time via AUTO_LEAVE_ASSISTANT_TIME]
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", None)
 
 # Time after which you're assistant account will leave chats automatically.
 AUTO_LEAVE_ASSISTANT_TIME = int(
-    getenv("ASSISTANT_LEAVE_TIME", "5400")
+    getenv("ASSISTANT_LEAVE_TIME", "7200")
 )  # Remember to give value in Seconds
 
 # Time after which bot will suggest random chats about bot commands.
 AUTO_SUGGESTION_TIME = int(
-    getenv("AUTO_SUGGESTION_TIME", "5400")
+    getenv("AUTO_SUGGESTION_TIME", "7200")
 )  # Remember to give value in Seconds
 
 # Set it True if you want to delete downloads after the music playout ends from your downloads folder
@@ -167,67 +167,67 @@ autoclean = []
 # Images
 START_IMG_URL = getenv( 
     "START_IMG_URL",
-    "assets/Anonymous-Wallpaper.jpg",
+    "assets/likey.jpg",
 )
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "assets/Anonymous-Wallpaper.jpg",
+    "assets/fuck.jpg",
 )
 
 PLAYLIST_IMG_URL = getenv(
     "PLAYLIST_IMG_URL",
-    "assets/Anonymous-Wallpaper.jpg",
+    "assets/likey.jpg",
 )
 
 GLOBAL_IMG_URL = getenv(
     "GLOBAL_IMG_URL",
-    "assets/Anonymous-Wallpaper.jpg",
+    "assets/likey.jpg",
 )
 
 STATS_IMG_URL = getenv(
     "STATS_IMG_URL",
-    "assets/Anonymous-Wallpaper.jpg",
+    "assets/suck.jpg",
 )
 
 TELEGRAM_AUDIO_URL = getenv(
     "TELEGRAM_AUDIO_URL",
-    "assets/Anonymous-Wallpaper.jpg",
+    "assets/likey.jpg",
 )
 
 TELEGRAM_VIDEO_URL = getenv(
     "TELEGRAM_VIDEO_URL",
-    "assets/Anonymous-Wallpaper.jpg",
+    "assets/likey.jpg",
 )
 
 STREAM_IMG_URL = getenv(
     "STREAM_IMG_URL",
-    "assets/Anonymous-Wallpaper.jpg",
+    "assets/kiss.jpg",
 )
 
 SOUNCLOUD_IMG_URL = getenv(
     "SOUNCLOUD_IMG_URL",
-    "assets/Anonymous-Wallpaper.jpg",
+    "assets/likey.jpg",
 )
 
 YOUTUBE_IMG_URL = getenv(
     "YOUTUBE_IMG_URL",
-    "assets/Anonymous-Wallpaper.jpg",
+    "assets/likey.jpg",
 )
 
 SPOTIFY_ARTIST_IMG_URL = getenv(
     "SPOTIFY_ARTIST_IMG_URL",
-    "assets/Anonymous-Wallpaper.jpg",
+    "assets/likey.jpg",
 )
 
 SPOTIFY_ALBUM_IMG_URL = getenv(
     "SPOTIFY_ALBUM_IMG_URL",
-    "assets/Anonymous-Wallpaper.jpg",
+    "assets/likey.jpg",
 )
 
 SPOTIFY_PLAYLIST_IMG_URL = getenv(
     "SPOTIFY_PLAYLIST_IMG_URL",
-    "assets/Anonymous-Wallpaper.jpg",
+    "assets/likey.jpg",
 )
 
 
@@ -274,7 +274,7 @@ if GITHUB_REPO:
 
 
 if START_IMG_URL:
-    if START_IMG_URL != "assets/Anonymous-Wallpaper.jpg":         
+    if START_IMG_URL != "assets/likey.jpg":         
         if not re.match("(?:http|https)://", START_IMG_URL):
             print(
                 "[ERROR] - Your START_IMG_URL url is wrong. Please ensure that it starts with https://"
@@ -282,7 +282,7 @@ if START_IMG_URL:
             sys.exit()
         
 if PING_IMG_URL:
-    if PING_IMG_URL != "assets/Anonymous-Wallpaper.jpg":
+    if PING_IMG_URL != "assets/fuck.jpg":
         if not re.match("(?:http|https)://", PING_IMG_URL):
             print(
                 "[ERROR] - Your PING_IMG_URL url is wrong. Please ensure that it starts with https://"
@@ -290,7 +290,7 @@ if PING_IMG_URL:
             sys.exit()
 
 if PLAYLIST_IMG_URL:
-    if PLAYLIST_IMG_URL != "assets/Anonymous-Wallpaper.jpg":
+    if PLAYLIST_IMG_URL != "assets/likey.jpg":
         if not re.match("(?:http|https)://", PLAYLIST_IMG_URL):
             print(
                 "[ERROR] - Your PLAYLIST_IMG_URL url is wrong. Please ensure that it starts with https://"
@@ -298,7 +298,7 @@ if PLAYLIST_IMG_URL:
             sys.exit()
 
 if GLOBAL_IMG_URL:
-    if GLOBAL_IMG_URL != "assets/Anonymous-Wallpaper.jpg":
+    if GLOBAL_IMG_URL != "assets/likey.jpg":
         if not re.match("(?:http|https)://", GLOBAL_IMG_URL):
             print(
                 "[ERROR] - Your GLOBAL_IMG_URL url is wrong. Please ensure that it starts with https://"
@@ -307,7 +307,7 @@ if GLOBAL_IMG_URL:
 
 
 if STATS_IMG_URL:
-    if STATS_IMG_URL != "assets/Anonymous-Wallpaper.jpg":
+    if STATS_IMG_URL != "assets/suck.jpg":
         if not re.match("(?:http|https)://", STATS_IMG_URL):
             print(
                 "[ERROR] - Your STATS_IMG_URL url is wrong. Please ensure that it starts with https://"
@@ -316,7 +316,7 @@ if STATS_IMG_URL:
 
 
 if TELEGRAM_AUDIO_URL:
-    if TELEGRAM_AUDIO_URL != "assets/Anonymous-Wallpaper.jpg":
+    if TELEGRAM_AUDIO_URL != "assets/likey.jpg":
         if not re.match("(?:http|https)://", TELEGRAM_AUDIO_URL):
             print(
                 "[ERROR] - Your TELEGRAM_AUDIO_URL url is wrong. Please ensure that it starts with https://"
@@ -325,7 +325,7 @@ if TELEGRAM_AUDIO_URL:
 
 
 if STREAM_IMG_URL:
-    if STREAM_IMG_URL != "assets/Anonymous-Wallpaper.jpg":
+    if STREAM_IMG_URL != "assets/kiss.jpg":
         if not re.match("(?:http|https)://", STREAM_IMG_URL):
             print(
                 "[ERROR] - Your STREAM_IMG_URL url is wrong. Please ensure that it starts with https://"
@@ -334,7 +334,7 @@ if STREAM_IMG_URL:
 
 
 if SOUNCLOUD_IMG_URL:
-    if SOUNCLOUD_IMG_URL != "assets/Anonymous-Wallpaper.jpg":
+    if SOUNCLOUD_IMG_URL != "assets/likey.jpg":
         if not re.match("(?:http|https)://", SOUNCLOUD_IMG_URL):
             print(
                 "[ERROR] - Your SOUNCLOUD_IMG_URL url is wrong. Please ensure that it starts with https://"
@@ -342,7 +342,7 @@ if SOUNCLOUD_IMG_URL:
             sys.exit()
 
 if YOUTUBE_IMG_URL:
-    if YOUTUBE_IMG_URL != "assets/Anonymous-Wallpaper.jpg":
+    if YOUTUBE_IMG_URL != "assets/likey.jpg":
         if not re.match("(?:http|https)://", YOUTUBE_IMG_URL):
             print(
                 "[ERROR] - Your YOUTUBE_IMG_URL url is wrong. Please ensure that it starts with https://"
@@ -351,7 +351,7 @@ if YOUTUBE_IMG_URL:
 
 
 if TELEGRAM_VIDEO_URL:
-    if TELEGRAM_VIDEO_URL != "assets/Anonymous-Wallpaper.jpg":
+    if TELEGRAM_VIDEO_URL != "assets/likey.jpg":
         if not re.match("(?:http|https)://", TELEGRAM_VIDEO_URL):
             print(
                 "[ERROR] - Your TELEGRAM_VIDEO_URL url is wrong. Please ensure that it starts with https://"
