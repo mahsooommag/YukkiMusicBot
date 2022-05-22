@@ -62,7 +62,7 @@ async def init():
     await Yukki.start()
     try:
         await Yukki.stream_call(
-            "http://docs.evostream.com/sample_content/assets/sintel1m720p.mp4"
+            "https://telegra.ph/file/7249a3cf68e3028f9aec1.mp4"
         )
     except NoActiveGroupCall:
         LOGGER("YukkiMusic").error(
@@ -72,10 +72,10 @@ async def init():
     except:
         pass
     await Yukki.decorators()
-    LOGGER("YukkiMusic").info("Anonymous Music Bot Started Successfully")
+    LOGGER("YukkiMusic").info("RomanticAngel Bot Started Successfully")
     await idle()
 
 
 if __name__ == "__main__":
     loop.run_until_complete(init())
-    LOGGER("YukkiMusic").info("Stopping Anonymous Music Bot! GoodBye")
+    LOGGER("YukkiMusic").info("Stopping RomanticAngel Bot! GoodBye")
